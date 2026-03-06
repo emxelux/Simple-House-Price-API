@@ -16,4 +16,4 @@ def homepage():
 async def predict_price(house_data: InputData):
     df = pd.DataFrame([house_data.dict()])
     pred = model.predict(df)
-    return {'Price': pred.round(2)}
+    return {'Price': f"The Likely Price of the house you want is {pred.round(2)}"}
