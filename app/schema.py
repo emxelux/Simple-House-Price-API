@@ -12,6 +12,6 @@ class InputData(BaseModel):
     ocean_proximity:object
 
 class PredResponse(BaseModel):
-    Price: float
+    Price: str
 
     
