@@ -10,7 +10,7 @@ git clone https://github.com/emxelux/Simple-House-Price-API.git
 ```
 ## Then Run
 
-```bash
+``` bash
 pip install -r requirements.txt
 cd Simple-House-Price-API
 ```
